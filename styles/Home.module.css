@@ -61,8 +61,29 @@
   font-weight: normal;
 }
 
-.h1 {
+.mainTitle {
+  font-size: 40px;
   font-weight: normal;
+}
+
+.subheading {
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.innerHeader {
+  display: flex;
+  flex-direction: column;
+  margin-left: 300px;
+}
+
+.desc {
+  font-size: 16px;
+  width: 366px;
+}
+
+.space {
+ margin-top: 20px;
 }
 
 .moonAni {
@@ -115,6 +136,15 @@
 
 .work {
 
+}
+
+.probSection {
+  width: 751px;
+  height: 376px;
+  background-color: #DDECF9;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
 }
 
 

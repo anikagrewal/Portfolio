@@ -23,6 +23,16 @@ export default function CaseStudy() {
                   <p className={styles.nav}>Resume</p>
             </div>
         </div>
+        <div className={styles.header}> 
+        <div className={styles.innerHeader}>
+          <p className={styles.mainTitle}>InnerSight</p>
+          <p className={styles.desc}>Innersight is a journal app that utilizes artificial intelligence to help find problems in your day to day life and give insights on how to covercome these struggles.<br className={styles.space} />Your personal mental health compaion.</p>
+          </div>
+          <Image src={'/images/innerSight.svg'} alt='logo' width={519} height={453} />
+        </div>
+        <div className={styles.probSection}>
+            <p>Problem</p>
+        </div>
       </main>
     </>
   )

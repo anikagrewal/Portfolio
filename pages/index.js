@@ -28,8 +28,8 @@ export default function Home() {
                <Image src={'/images/anika_logo.svg'} alt='logo' width={215} height={215} />
             </div>
             <div className={styles.title}>
-                <h1>Hey, I'm Anika</h1>
-                <p>I am a Frontend Developer.</p>
+                <h1 className={styles.mainTitle}>Hey, I'm Anika</h1>
+                <p className={styles.subheading}>I am a Frontend Developer.</p>
             </div>
                 <div className={styles.moonAni}>
                       <div className={styles.moon}>
