@@ -331,5 +331,11 @@ height: 1346px;
 background-color: #DDECF9;
 }
 
+.pageHeader {
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  justify-content: center;
+}
 
 

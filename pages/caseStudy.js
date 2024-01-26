@@ -54,6 +54,10 @@ export default function CaseStudy() {
             <Image src={'/images/newLogo.png'} alt='logo' width={300} height={300} />
             <p>Colour</p>
             <p>Mascots</p>
+             <Image src={'/images/panda.svg'} alt='logo' width={200} height={200} />
+             <Image src={'/images/sloth.svg'} alt='logo' width={200} height={200} />
+             <Image src={'/images/otter.svg'} alt='logo' width={200} height={200} />
+             <Image src={'/images/frog.svg'} alt='logo' width={200} height={200} />
             <p>Assets</p>
             <p>Lo-Fi | Hi-Fi</p>
           </div>

@@ -20,7 +20,10 @@ export default function Projects() {
        <p className={styles.proTitle}>Project 4</p>
        </div>
        <div className={styles.page}>
+        <div className={styles.pageHeader}>
             <p className={styles.mainTitle}>PagePal</p>
+            <Image src={'/images/pagepall.png'} alt='logo' width={800} height={400} />
+        </div>
        </div>
         <Footer/>
         </div>
