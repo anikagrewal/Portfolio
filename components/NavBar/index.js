@@ -8,10 +8,11 @@ export default function NavBar() {
 
 return (
 
+<div className={styles.navCon}>
 <div className={styles.navBar}> 
             <div className={styles.left}>
-                 <Image src={'/images/anika_logo.svg'} alt='logo' width={54} height={58} />
-                 <Link href={'/'} className={styles.nav}>anikagrewal</Link>
+                
+                 <Link href={'/'} className={styles.nav}> <Image src={'/images/anika_logo.svg'} alt='logo' width={54} height={58} /></Link>
             </div>
             <div className={styles.right}>
                   <Link href={'/caseStudy'} className={styles.nav}>Case Study</Link>
@@ -19,6 +20,7 @@ return (
                   <p className={styles.nav}>About</p>
                   <p className={styles.nav}>Resume</p>
             </div>
+        </div>
         </div>
 
 )}

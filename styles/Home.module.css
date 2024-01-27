@@ -6,17 +6,22 @@
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  background-color: #4e738a97;
+  background-color: #4E738A;
   font-family: 'lora', 'sans-serif';
 }
 
+.navCon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .navBar {
   background-color: #DDECF9;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 1360px;
+  width: 627px;
   height: 91px;
   margin-top: 20px;
 }
@@ -43,9 +48,8 @@
 .left { 
   display: flex;
  flex-direction: row;
- gap: 20px;
  align-items: center;
-  margin-right: 850px;
+margin-right: 160px;
 }
 
 .right {
@@ -58,15 +62,32 @@
 .header {
   width: 1360px;
   height: 430px;
-  background-color: #DDECF9;
   margin-top: 100px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
+  gap: 300px;
+}
+
+.leftHeader {
+  display: flex;
+  flex-direction: row;
+  gap: 40px
 }
 
 .headLogo {
   margin-left: 40px;
+  top: calc(50% - 20px);
+  left: calc(50% - 20px);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #DDECF9;
+  box-shadow:
+    0 0 60px 30px #DDECF9,
+    0 0 100px 60px #4e738a,
+    0 0 140px 90px #4E738A;
 }
 
 .title {
@@ -77,12 +98,18 @@
 .mainTitle {
   font-size: 40px;
   font-weight: normal;
+  color: #DDECF9;
 }
 
 .subheading {
   font-size: 28px;
   font-weight: lighter;
   margin-top: -27px;
+  color: #DDECF9;
+}
+
+.bodyTxt {
+  color: #DDECF9;
 }
 
 .innerHeader {
@@ -103,10 +130,33 @@
 .projects {
   width: 1360px;
   height: 654px;
-  background-color: #DDECF9;
+  background-color: #ddecf963;
   margin-top: 100px;
   display: flex;
   flex-direction: column;
+}
+
+.proLinks {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 90px;
+color: #DDECF9; 
+margin-top: 30px;
+}
+
+.proHeader {
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+.carousel {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
 }
 
 .aboutSection {
@@ -122,12 +172,14 @@
 }
 
 .about {
-  width: 670px;
+  width: 720px;
   height: 318px;
-  background-color: #DDECF9;
   margin-top: 100px;
+  border: 0.5px solid #DDECF9;
   display: flex;
   flex-direction: column;
+  color: #DDECF9;
+  padding: 10px;
 }
 
 .line {
@@ -139,6 +191,7 @@
  display: flex;
  flex-direction: row;
  margin-bottom: 10px;
+ color: #DDECF9;
 }
 
 .contact {
@@ -163,13 +216,22 @@ margin-left: 180px;
 }
 
 .moonAni {
-  margin-left: 180px;
+  top: calc(50% - 20px);
+  left: calc(50% - 20px);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow:
+    0 0 60px 30px #e9d37a,
+    0 0 100px 60px #FED16D,
+    0 0 140px 90px #4e738a;
 }
 
 .moon {
-  width: 390px;
-  height: 390px;
-  border: 2px solid #4e738a;
+  width: 300px;
+  height: 300px;
+  border: 0.5px solid #4e738a;
   border-radius: 50%;
   overflow: hidden;
   position: relative;
