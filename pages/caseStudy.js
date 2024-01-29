@@ -24,7 +24,7 @@ export default function CaseStudy() {
         </div>
        
         <div className={styles.probSection}>
-            <p>Problem</p>
+            <p className={styles.probText}>Problem</p>
             <p>The project hopes to address the challenge of analyzing numerous journal entries to find correlations between the user and their disorders. The project also aims to help users actively avoid or increase activities to improve their well-being..</p>
          <hr className={styles.perLine}></hr>
           <div className={styles.percentage}>
@@ -47,6 +47,7 @@ export default function CaseStudy() {
             <li>4. What do you believe is the main benefit to writing in a journal?</li>
             <li>5, What discourages you from journaling?</li>
           </div>
+          <hr className={styles.divider}></hr>
             <p className={styles.innerSub}>Persona</p>
             <div className={styles.persona}>
             <p className={styles.perText}>The persona, Amaya, is a 24 year old BCIT student who has been diagnosed with anxiety and depression. She has been consistently journaling her thoughts and emotions traditionally with a pen and paper. </p>
@@ -55,6 +56,7 @@ export default function CaseStudy() {
            </div> 
             </div>
           </div>
+          <hr className={styles.divider}></hr>
           <div> 
           <p className={styles.innerSub}>Site Map</p>
             <div className={styles.persona}>
@@ -64,6 +66,7 @@ export default function CaseStudy() {
             </div>
             </div>
           </div>
+          <hr className={styles.divider}></hr>
           <div> 
             <p className={styles.innerSub}>Logo</p>
             <div className={styles.logoSec}>
@@ -76,6 +79,7 @@ export default function CaseStudy() {
             <p>Final Design of Logo</p>
             </div>
             </div>
+            <hr className={styles.divider}></hr>
             <p className={styles.innerSub}>Colour</p>
             <div className={styles.persona}>
             <p className={styles.perText}>Monochromatic Purple - Emphasize the feeling of calmness. The purples are cooler with a little bit of contrast for one or two shades so that the loud colours aren't as evoked for the user and potentially stress them out when using the application.</p>
@@ -124,7 +128,7 @@ export default function CaseStudy() {
             </div>
             </div>
             
-           
+          
             <p className={styles.innerSub}>Mascots</p>
             <div>
             <p className={styles.perText}>The users have the option to customize their mascot so that they can feel that there is a personalized companion that is following and guiding them through their mental health journey.</p>
@@ -147,12 +151,14 @@ export default function CaseStudy() {
              </div>
              </div>
              </div>
+             <hr className={styles.divider}></hr>
             <p className={styles.innerSub}>Lo-Fi | Hi-Fi</p>
             <div className={styles.fiImg}>
             <Image src={'/images/lofiPhoto.png'} alt='logo' width={550} height={400} />
           <Image src={'/images/hifiPhoto.png'} alt='logo' width={550} height={400} />
           </div>
           </div>
+          <hr className={styles.divider}></hr>
           <div className={styles.codingCon}> 
           <p className={styles.innerSub}>Coding</p>
           <div className={styles.codeImg}>
@@ -171,11 +177,11 @@ Sentiment Analysis inspects the given text and identifies the prevailing emotion
      </div>
           </div>
         </div>
-      
+        <hr className={styles.divider}></hr>
         <div id="solution" className={styles.solSection}>
-           
+       
             <div className={styles.solText}>
-            <p  className={styles.innerSub}>Solution</p>
+            <p className={styles.solHeader}>Solution</p>
             <p>The ai sentiment analysis which plays a fundamental role  in separating the app from competitors, will pull out key words in order to display prominent feelings and emotions within that journal entry. This feature further assists with analyzing past journal entries.</p>
          <p>The chart pulls the emotions that most commonly show up in the journal entries and displays it for a week, month, or yearly view.</p>
          <p>The recommendations are based off the sentiment analysis and the emotions and key words that were identified. It will then give a recommendation based on that.</p>
