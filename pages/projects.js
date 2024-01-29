@@ -21,7 +21,10 @@ export default function Projects() {
        </div>
        <div className={styles.page}>
         <div className={styles.pageHeader}>
-            <p className={styles.mainTitle}>PagePal</p>
+          <div className={styles.pageLeft}>
+            <p className={styles.mainTitlePage}>PagePal</p>
+            <p className={styles.pageText}>PagePal is a customizable library. Books can be searched for and added to the library. The shelves can be customized to have different names and the books can be moved to different shelves or deleted.</p>
+            </div>
             <Image src={'/images/pagepall.png'} alt='logo' width={800} height={400} />
         </div>
        </div>

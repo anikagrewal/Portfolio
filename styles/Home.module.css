@@ -126,6 +126,19 @@ margin-right: 160px;
   color: black;
 }
 
+.mainTitlePage {
+  font-size: 40px;
+  font-weight: normal;
+  color: black;
+}
+
+.pageLeft {
+  margin-left: 200px;
+}
+
+.pageText {
+  color: black;
+}
 .subheading {
   font-size: 28px;
   font-weight: lighter;
@@ -564,7 +577,7 @@ background-color: #DDECF9;
 .pageHeader {
   display: flex;
   flex-direction: row;
-  gap: 200px;
+
   justify-content: center;
 }
 
