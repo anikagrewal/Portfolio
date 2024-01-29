@@ -222,6 +222,12 @@ margin-top: 20px;
   margin-bottom: 40px;
 }
 
+.divider {
+  border: 1px solid white;
+  margin-top: 200px;
+  width: 800px;
+}
+
 .footer {
  display: flex;
  flex-direction: row;
@@ -401,7 +407,7 @@ margin-left: 180px;
 }
 
 .solSection {
-  margin-top: 2100px;
+  margin-top: 3300px;
   margin-bottom: 200px;
   display: flex;
   flex-direction: row;
@@ -414,7 +420,7 @@ margin-left: 180px;
   flex-direction: column;
   width: 500px;
   height: 200px;
-  margin-top: -250px;
+  margin-top: -100px;
 }
 .colorone {
   width: 150px;
@@ -558,11 +564,21 @@ margin-left: 180px;
   font-size: 30px;
 }
 
+.solHeader {
+  font-size: 30px;
+}
 .linkText {
   color: #FED16D;
   font-size: 20px;
   align-items: center;
 }
+.probText {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+
 /* Projects Page */ 
 .proHeader {
 font-size: 36px;
