@@ -70,6 +70,24 @@ margin-right: 160px;
   gap: 300px;
 }
 
+.headerCase {
+  width: 1360px;
+  height: 430px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 300px;
+  background-color: #DDECF9;
+}
+
+.innerHeader {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
 .leftHeader {
   display: flex;
   flex-direction: row;
@@ -112,11 +130,7 @@ margin-right: 160px;
   color: #DDECF9;
 }
 
-.innerHeader {
-  display: flex;
-  flex-direction: column;
-  margin-left: 300px;
-}
+
 
 .desc {
   font-size: 16px;
@@ -371,6 +385,37 @@ margin-left: 180px;
   flex-direction: row;
 }
 
+.colorone {
+  width: 100px;
+  height: 100px;
+  background-color: #525585;
+}
+
+.colortwo {
+  width: 100px;
+  height: 100px;
+  background-color: #6164C3;
+}
+.colorthree {
+  width: 100px;
+  height: 100px;
+  background-color: #88898C;
+}
+.colorfour {
+  width: 100px;
+  height: 100px;
+  background-color: #C5C7F7;
+}
+.colorfive {
+  width: 100px;
+  height: 100px;
+  background-color: #D5D7FF;
+}
+.colorsix {
+  width: 100px;
+  height: 100px;
+  background-color: #F2F2FD;
+}
 
 /* Projects Page */ 
 .proHeader {

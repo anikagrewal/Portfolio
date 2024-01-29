@@ -13,7 +13,7 @@ export default function CaseStudy() {
       <main className={styles.main}>
         <div id="innersight">
      <NavBar />
-        <div className={styles.header}> 
+        <div className={styles.headerCase}> 
         <div className={styles.innerHeader}>
           <p className={styles.mainTitle}>InnerSight</p>
           <p className={styles.desc}>Innersight is a journal app that utilizes artificial intelligence to help find problems in your day to day life and give insights on how to covercome these struggles.<br className={styles.space} />Your personal mental health compaion.</p>
@@ -40,11 +40,12 @@ export default function CaseStudy() {
           <div> 
             <h2>UX Research and Ideation</h2>
             <p>User Interviews</p>
-            <p>Product Idea</p>
             <p>Persona</p>
+            <Image src={'/images/persona.png'} alt='logo' width={510} height={750} />
           </div>
           <div> 
             <h2>Information Architecture</h2>
+            <Image src={'/images/sitemap.png'} alt='logo' width={300} height={250} />
           </div>
           <div> 
             <h2>UI Design and Branding</h2>
@@ -53,6 +54,32 @@ export default function CaseStudy() {
             <Image src={'/images/oldLogo.png'} alt='logo' width={100} height={100} />
             <Image src={'/images/newLogo.png'} alt='logo' width={300} height={300} />
             <p>Colour</p>
+            <p>Delft Blue</p>
+            <div className={styles.colorone}>
+              <p>hex</p>
+            </div>
+            <p>Savoy Blue</p>
+            <div className={styles.colortwo}>
+              <p>hex</p>
+            </div>
+            <p>Dark Gray</p>
+            <div className={styles.colorthree}>
+              <p>hex</p>
+            </div>
+            <p>Periwinkle</p>
+            <div className={styles.colorfour}>
+              <p>hex</p>
+            </div>
+            <p>Light Periwinkle</p>
+            <div className={styles.colorfive}>
+              <p>hex</p>
+            </div>
+            <p>Light Lavender</p>
+            <div className={styles.colorsix}>
+              <p>hex</p>
+            </div>
+
+           
             <p>Mascots</p>
              <Image src={'/images/panda.svg'} alt='logo' width={200} height={200} />
              <Image src={'/images/sloth.svg'} alt='logo' width={200} height={200} />
@@ -60,6 +87,8 @@ export default function CaseStudy() {
              <Image src={'/images/frog.svg'} alt='logo' width={200} height={200} />
             <p>Assets</p>
             <p>Lo-Fi | Hi-Fi</p>
+            <Image src={'/images/hifiPhoto.png'} alt='logo' width={500} height={400} />
+            <Image src={'/images/lofiPhoto.png'} alt='logo' width={500} height={400} />
           </div>
           <div> 
             <h2>Coding</h2>
