@@ -515,7 +515,12 @@ margin-left: 180px;
 .colorCon {
   display: flex;
   flex-direction: column;
-  gap: 80px
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+ background-color: #DDECF9;
+ width: 800px;
+ color: black;
 }
 
 .colorRow {
