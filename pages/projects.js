@@ -27,6 +27,11 @@ export default function Projects() {
             </div>
             <Image src={'/images/pagepall.png'} alt='logo' width={800} height={400} />
         </div>
+        <div className={styles.proImg}>
+        <Image src={'/images/library.png'} alt='logo' width={800} height={450} />
+        <Image src={'/images/addbook.png'} alt='logo' width={800} height={600} />
+        <Image src={'/images/shelf.png'} alt='logo' width={800} height={400} />
+        </div>
        </div>
         <Footer/>
         </div>
