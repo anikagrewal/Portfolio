@@ -553,6 +553,11 @@ margin-left: 180px;
   margin-top: 300px;
 }
 
+.desHeader {
+  margin-bottom: -120px;
+  font-size: 30px;
+}
+
 /* Projects Page */ 
 .proHeader {
 font-size: 36px;

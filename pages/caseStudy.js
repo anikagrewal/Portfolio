@@ -36,10 +36,11 @@ export default function CaseStudy() {
         
      
         <div id="design" className={styles.desSection}> 
-          <h2>Design Process</h2>
+          <h2 className={styles.desHeader}>Design Process</h2>
           <div> 
             <div>
             <p className={styles.innerSub}>User Interview</p>
+            <p>The following questions were the most important aspects that was wanted to capture how people interact with journaling.</p>
             <li>1. What specific features would you expect from a journaling tool aimed at assisting with mental health?</li>
             <li>2. Are there any specific challenges that you face when journaling? If so, what are they? </li>
             <li>3. What kind of stressors do you experience in your day-to-day?</li>
@@ -48,7 +49,7 @@ export default function CaseStudy() {
           </div>
             <p className={styles.innerSub}>Persona</p>
             <div className={styles.persona}>
-            <p className={styles.perText}>Our persona, Amaya, is a 24 year old BCIT student who has been diagnosed with anxiety and depression. She has been consistently journaling her thoughts and emotions traditionally with a pen and paper. </p>
+            <p className={styles.perText}>The persona, Amaya, is a 24 year old BCIT student who has been diagnosed with anxiety and depression. She has been consistently journaling her thoughts and emotions traditionally with a pen and paper. </p>
            <div className={styles.perImg}>
             <Image src={'/images/persona.png'} alt='logo' width={510} height={750} />
            </div> 
@@ -77,7 +78,7 @@ export default function CaseStudy() {
             </div>
             <p className={styles.innerSub}>Colour</p>
             <div className={styles.persona}>
-            <p className={styles.perText}>Monochromatic Purple - Emphasize the feeling of calmness  We wanted to keep the purples cooler with a little bit of contrast for one or two shades because we didn’t want to evoke loud colours for the user and potentially stress them out when using our application.</p>
+            <p className={styles.perText}>Monochromatic Purple - Emphasize the feeling of calmness. The purples are cooler with a little bit of contrast for one or two shades so that the loud colours aren't as evoked for the user and potentially stress them out when using the application.</p>
            <div className={styles.colorCon}>
             <div className={styles.colorRow}>
               <div className={styles.colBox}>
@@ -126,7 +127,7 @@ export default function CaseStudy() {
            
             <p className={styles.innerSub}>Mascots</p>
             <div>
-            <p className={styles.perText}>We chose to allow users the option to customize their mascot so that they can feel that there is a personalized companion that is following and guiding them through their mental health journey.</p>
+            <p className={styles.perText}>The users have the option to customize their mascot so that they can feel that there is a personalized companion that is following and guiding them through their mental health journey.</p>
             <div className={styles.masImg}>
              <Image src={'/images/panda.svg'} alt='logo' width={200} height={200} />
              <Image src={'/images/sloth.svg'} alt='logo' width={200} height={200} />
@@ -153,8 +154,8 @@ export default function CaseStudy() {
      <p>Sentiment Analysis is an AI-based technology that can determine the emotional undertone of a corpus of text.
 Sentiment Analysis inspects the given text and identifies the prevailing emotional opinion within the text, especially to determine a writer's attitude as positive, negative, or neutral. Also called "opinion mining", it identifies and detects subjective information from the input text.
 </p>
-<p>We use EdenAI services for sentiment analysis. EdenAI does not store data at all, and any data (e.g., journal entries) are transmitted directly back to innersight.</p>
-     <p>Our data is managed using Google Firebase services. Data is stored in Belgium.</p>
+<p>EdenAI services was used for sentiment analysis. EdenAI does not store data at all, and any data (e.g., journal entries) are transmitted directly back to innersight.</p>
+     <p>The data is managed using Google Firebase services. Data is stored in Belgium.</p>
      </div>
           </div>
         </div>
@@ -163,7 +164,7 @@ Sentiment Analysis inspects the given text and identifies the prevailing emotion
            
             <div className={styles.solText}>
             <p  className={styles.innerSub}>Solution</p>
-            <p>Our ai sentiment analysis which plays a fundamental role  in separating our app from competitors, will pull out key words in order to display prominent feelings and emotions within that journal entry. This feature further assists with analyzing past journal entries.</p>
+            <p>The ai sentiment analysis which plays a fundamental role  in separating the app from competitors, will pull out key words in order to display prominent feelings and emotions within that journal entry. This feature further assists with analyzing past journal entries.</p>
          <p>The chart pulls the emotions that most commonly show up in the journal entries and displays it for a week, month, or yearly view.</p>
          <p>The recommendations are based off the sentiment analysis and the emotions and key words that were identified. It will then give a recommendation based on that.</p>
           </div>
