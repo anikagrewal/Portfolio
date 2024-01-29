@@ -32,6 +32,11 @@
   color: black;
 }
 
+.linkTxt {
+  font-size: 16px;
+  color: #e6f4ff;
+}
+
 .sticky {
   position: fixed;
   top: 100px;

@@ -11,7 +11,7 @@ return (
         <div className={styles.contact}>
             <h2>Contact Me</h2>
             <div className={styles.footerLinks}>
-            <a href="https://www.linkedin.com/in/anika-grewal-516712262" className={styles.nav}>LinkedIn</a>
+            <a href="https://www.linkedin.com/in/anika-grewal-516712262" className={styles.linkTxt}>LinkedIn</a>
             <p>Email</p>
             </div>
         </div>
@@ -19,7 +19,7 @@ return (
         <div className={styles.work}>
             <h2>Visit Work</h2>
             <div className={styles.footerLinks}>
-            <a href="https://github.com/anikagrewal" className={styles.nav}>Github</a>
+            <a href="https://github.com/anikagrewal" className={styles.linkTxt}>Github</a>
             <p>Other portfolio</p>
             </div>
         </div>
