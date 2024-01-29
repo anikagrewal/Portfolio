@@ -558,6 +558,11 @@ margin-left: 180px;
   font-size: 30px;
 }
 
+.linkText {
+  color: #FED16D;
+  font-size: 20px;
+  align-items: center;
+}
 /* Projects Page */ 
 .proHeader {
 font-size: 36px;

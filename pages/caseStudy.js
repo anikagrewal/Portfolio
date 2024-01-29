@@ -129,10 +129,22 @@ export default function CaseStudy() {
             <div>
             <p className={styles.perText}>The users have the option to customize their mascot so that they can feel that there is a personalized companion that is following and guiding them through their mental health journey.</p>
             <div className={styles.masImg}>
+              <div className={styles.masText}>
              <Image src={'/images/panda.svg'} alt='logo' width={200} height={200} />
+             <p>Panda - Represents peace and friendship </p>
+             </div>
+             <div className={styles.masText}>
              <Image src={'/images/sloth.svg'} alt='logo' width={200} height={200} />
+             <p>Sloth - Represents relaxation and patience </p>
+             </div>
+             <div className={styles.masText}>
              <Image src={'/images/otter.svg'} alt='logo' width={200} height={200} />
+             <p>Otter - Represents kindness and family</p>
+             </div>
+             <div className={styles.masText}>
              <Image src={'/images/frog.svg'} alt='logo' width={200} height={200} />
+             <p>Frog - Represents wisdom and good luck</p>
+             </div>
              </div>
              </div>
             <p className={styles.innerSub}>Lo-Fi | Hi-Fi</p>
@@ -172,7 +184,7 @@ Sentiment Analysis inspects the given text and identifies the prevailing emotion
               <source src={'/images/innersightTechDemo.mp4'} type="video" />
             </video>
         </div>
-        <a href="https://play.google.com/store/apps/details?id=ca.innersightapp.app&pcampaignid=web_share" className={styles.nav}>Visit Beta Testing</a>
+        <a className={styles.linkText} href="https://play.google.com/store/apps/details?id=ca.innersightapp.app&pcampaignid=web_share">Visit Beta Testing</a>
         <Footer/>
         </div>
       </main>
