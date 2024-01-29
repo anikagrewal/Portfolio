@@ -570,15 +570,23 @@ justify-content: space-between;
 
 .page {
 width: 1360px;
-height: 1346px;
+height: 2100px;
 background-color: #DDECF9;
 }
 
 .pageHeader {
   display: flex;
   flex-direction: row;
-
   justify-content: center;
+}
+
+.proImg {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
 }
 
 
