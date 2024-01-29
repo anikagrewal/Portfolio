@@ -40,8 +40,8 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.proLinks}>
-        <p>InnerSight</p>
-        <p>PagePal</p>
+        <Link href={'/caseStudy'} className={styles.linkTxt}>InnerSight</Link>
+        <Link href={'/projects'} className={styles.linkTxt}>PagePal</Link>
         <p>Rescue Radar</p>
         <p>Project 4</p>
         </div>
