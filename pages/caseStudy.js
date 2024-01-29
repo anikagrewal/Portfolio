@@ -187,7 +187,7 @@ Sentiment Analysis inspects the given text and identifies the prevailing emotion
          <p>The recommendations are based off the sentiment analysis and the emotions and key words that were identified. It will then give a recommendation based on that.</p>
           </div>
             <video width={500} height={300} controls>
-              <source src={'/images/innersightTechDemo.mp4'} type="video" />
+              <source src={'/images/innersightTechDemo.mp4'} type="video/mp4" />
             </video>
         </div>
         <a className={styles.linkText} href="https://play.google.com/store/apps/details?id=ca.innersightapp.app&pcampaignid=web_share">Visit Beta Testing</a>
