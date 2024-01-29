@@ -502,14 +502,20 @@ margin-left: 180px;
 
 .perImg {
   background-color: #DDECF9;
-  width: 550px;
-  height: 790px;
+  width: 560px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .siteImg {
   background-color: #DDECF9;
   width: 650px;
   height: 670px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .colorCon {
