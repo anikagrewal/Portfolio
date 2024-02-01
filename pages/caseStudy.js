@@ -33,21 +33,31 @@ export default function CaseStudy() {
         <div id="design" className={styles.desSection}> 
           <h2 className={styles.desHeader}>Design Process</h2>
           <div> 
-            
+          <div className={styles.desBlob}>
+          <Image src={'/images/blob.svg'} alt='logo' width={700} height={700} />
+          </div>
+            <div className={styles.desSloth}>
+          <Image src={'/images/slothHanging.svg'} alt='logo' width={500} height={500} />
+          </div>
             <p className={styles.innerSub}>Research</p>
             <div className={styles.research}>
             <div className={styles.quest}>
-              <p>Interview Questions</p>
+              <p className={styles.resHeader}>Interview Questions</p>
             <p>The following questions were the most important aspects that was wanted to capture how people interact with journaling.</p>
+            <ul className={styles.resList}>
             <li>1. What specific features would you expect from a journaling tool aimed at assisting with mental health?</li>
             <li>2. Are there any specific challenges that you face when journaling? If so, what are they? </li>
             <li>3. What kind of stressors do you experience in your day-to-day?</li>
             <li>4. What do you believe is the main benefit to writing in a journal?</li>
-            <li>5, What discourages you from journaling?</li>
+            <li>5. What discourages you from journaling?</li>
+            </ul>
             </div>
             <div className={styles.find}>
-              <p>Findings</p>
-              <p>Pyschological Barriers</p>
+              <p className={styles.resHeader}>Findings</p>
+              <p className={styles.resSub}>Pyschological Barriers</p>
+              <div className={styles.resLiCon}>
+              <hr className={styles.resLine}></hr>
+              <ul className={styles.resList1}>
               <li>Motivation & consistency</li>
               <li>Perceived usefulness</li>
               <li>Repetition</li>
@@ -56,13 +66,25 @@ export default function CaseStudy() {
               <li>Time constraints</li>
               <li>Self-criticism & hesitation</li>
               <li>Lack of direction</li>
-              <p>Technical/Functional Issues</p>
+              </ul>
+              </div>
+              <p className={styles.resSub}>Technical/Functional Issues</p>
+              <div className={styles.resLiCon}>
+              <hr className={styles.resLine1}></hr>
+              <ul className={styles.resList1}>
               <li>Lack of customization</li>
               <li>Simplistic features</li>
               <li>Receiving same generated responses</li>
               <li>Aesthetic concerns</li>
-              <p>Privacy Concerns</p>
+              </ul>
+              </div>
+              <p className={styles.resSub}>Privacy Concerns</p>
+              <div className={styles.resLiCon}>
+              <hr className={styles.resLine2}></hr>
+              <ul className={styles.resList1}>
               <li>Data sharing through AI</li>
+              </ul>
+              </div>
          
             </div>
           </div>
