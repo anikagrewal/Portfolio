@@ -14,8 +14,10 @@ export default function Home() {
       
       <main className={styles.main}>
       <div>
+        <div className={styles.headerCon}>
        <NavBar />
        <Header/>
+       </div>
         <div className={styles.proCon}>
         <div className={styles.projects}>
           <p className={styles.proHeader}>Projects</p>
