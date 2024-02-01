@@ -2,8 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
-import NavBar from '@/components/NavBar'
-import Footer from '@/components/Footer'
+import NavBar from '@/components/Molecules/NavBar'
+import Footer from '@/components/Molecules/Footer'
 
 
 export default function Projects() {

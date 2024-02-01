@@ -6,9 +6,9 @@
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  background-color: #4E738A;
+  background-color: #DDECF9;
   font-family: 'lora', 'sans-serif';
-  color:  #e6f4ff;
+  color:  black;
 }
 
 .navCon {
