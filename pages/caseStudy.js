@@ -16,34 +16,60 @@ export default function CaseStudy() {
      <NavBar />
        <CaseHeader/>
        
+       <h2 className={styles.desHeader}>Problem</h2>
         <div className={styles.probSection}>
-            <p className={styles.probText}>Problem</p>
+          <div className={styles.probBody}>
             <p>The project hopes to address the challenge of analyzing numerous journal entries to find correlations between the user and their disorders. The project also aims to help users actively avoid or increase activities to improve their well-being..</p>
-         <hr className={styles.perLine}></hr>
+            </div>
+        <hr className={styles.perLine}></hr>
           <div className={styles.percentage}>
             <p className={styles.percent}>24%</p>
             <p>In just three years, drug claims in Canada for treating mental disorders among those aged 30 and under soared by a staggering 24%</p>
             </div>
-            <hr></hr>
+            <hr className={styles.perLine}></hr>
         </div>
         
      
         <div id="design" className={styles.desSection}> 
           <h2 className={styles.desHeader}>Design Process</h2>
           <div> 
-            <div>
-            <p className={styles.innerSub}>User Interview</p>
+            
+            <p className={styles.innerSub}>Research</p>
+            <div className={styles.research}>
+            <div className={styles.quest}>
+              <p>Interview Questions</p>
             <p>The following questions were the most important aspects that was wanted to capture how people interact with journaling.</p>
             <li>1. What specific features would you expect from a journaling tool aimed at assisting with mental health?</li>
             <li>2. Are there any specific challenges that you face when journaling? If so, what are they? </li>
             <li>3. What kind of stressors do you experience in your day-to-day?</li>
             <li>4. What do you believe is the main benefit to writing in a journal?</li>
             <li>5, What discourages you from journaling?</li>
+            </div>
+            <div className={styles.find}>
+              <p>Findings</p>
+              <p>Pyschological Barriers</p>
+              <li>Motivation & consistency</li>
+              <li>Perceived usefulness</li>
+              <li>Repetition</li>
+              <li>Emotional challenges</li>
+              <li>Writing challenges</li>
+              <li>Time constraints</li>
+              <li>Self-criticism & hesitation</li>
+              <li>Lack of direction</li>
+              <p>Technical/Functional Issues</p>
+              <li>Lack of customization</li>
+              <li>Simplistic features</li>
+              <li>Receiving same generated responses</li>
+              <li>Aesthetic concerns</li>
+              <p>Privacy Concerns</p>
+              <li>Data sharing through AI</li>
+         
+            </div>
           </div>
           <hr className={styles.divider}></hr>
             <p className={styles.innerSub}>Persona</p>
             <div className={styles.persona}>
-            <p className={styles.perText}>The persona, Amaya, is a 24 year old BCIT student who has been diagnosed with anxiety and depression. She has been consistently journaling her thoughts and emotions traditionally with a pen and paper. </p>
+            <p className={styles.perText}>Amaya, is a 24 year old BCIT student who has been diagnosed with anxiety and depression. She has been consistently journaling her thoughts and emotions traditionally with a pen and paper. </p>
            <div className={styles.perImg}>
             <Image src={'/images/persona.png'} alt='logo' width={510} height={750} />
            </div> 
