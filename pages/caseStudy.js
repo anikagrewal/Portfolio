@@ -88,13 +88,17 @@ export default function CaseStudy() {
          
             </div>
           </div>
-          <hr className={styles.divider}></hr>
+          
             <p className={styles.innerSub}>Persona</p>
             <div className={styles.persona}>
+              <div className={styles.perTxtCon}>
             <p className={styles.perText}>Amaya, is a 24 year old BCIT student who has been diagnosed with anxiety and depression. She has been consistently journaling her thoughts and emotions traditionally with a pen and paper. </p>
+            </div>
+            <div >
            <div className={styles.perImg}>
-            <Image src={'/images/persona.png'} alt='logo' width={510} height={750} />
+            <Image src={'/images/persona.png'} alt='logo' width={780} height={595} />
            </div> 
+           </div>
             </div>
           </div>
           <hr className={styles.divider}></hr>
