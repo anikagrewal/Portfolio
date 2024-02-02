@@ -15,7 +15,9 @@ export default function Home() {
       <main className={styles.main}>
       <div>
         <div className={styles.headerCon}>
+
        <NavBar />
+
        <Header/>
        </div>
         <div className={styles.proCon}>
