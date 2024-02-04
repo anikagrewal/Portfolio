@@ -19,7 +19,7 @@ export default function CaseStudy() {
        <h2 className={styles.desHeader}>Problem</h2>
         <div className={styles.probSection}>
           <div className={styles.probBody}>
-            <p>The project hopes to address the challenge of analyzing numerous journal entries to find correlations between the user and their disorders. The project also aims to help users actively avoid or increase activities to improve their well-being..</p>
+            <p>The project hopes to address the challenge of analyzing numerous journal entries to find correlations between the individual's activites and their mental health symptoms. Aiming to help individual's actively avoid or increase activities to improve their well-being.</p>
             </div>
         <hr className={styles.perLine}></hr>
           <div className={styles.percentage}>
@@ -41,19 +41,8 @@ export default function CaseStudy() {
           </div>
             <p className={styles.innerSub}>Research</p>
             <div className={styles.research}>
-            <div className={styles.quest}>
-              <p className={styles.resHeader}>Interview Questions</p>
-            <p>The following questions were the most important aspects that was wanted to capture how people interact with journaling.</p>
-            <ul className={styles.resList}>
-            <li>1. What specific features would you expect from a journaling tool aimed at assisting with mental health?</li>
-            <li>2. Are there any specific challenges that you face when journaling? If so, what are they? </li>
-            <li>3. What kind of stressors do you experience in your day-to-day?</li>
-            <li>4. What do you believe is the main benefit to writing in a journal?</li>
-            <li>5. What discourages you from journaling?</li>
-            </ul>
-            </div>
+            <p className={styles.resHeader}>Findings</p>
             <div className={styles.find}>
-              <p className={styles.resHeader}>Findings</p>
               <p className={styles.resSub}>Pyschological Barriers</p>
               <div className={styles.resLiCon}>
               <hr className={styles.resLine}></hr>
