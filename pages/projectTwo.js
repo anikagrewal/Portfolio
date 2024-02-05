@@ -38,11 +38,11 @@ export default function projectTwo() {
         <div className={styles.proImg}>
           <div>
         <Image className={styles.imgStyle} src={'/images/tbimg.svg'} alt='logo' width={600} height={400} />
-        <p>The home page of the individual's library shows each shelf that they have created.</p>
+        <p>The request process allows an individual to either request an item they are in need of or look at requests that have been sent out to get in touch and help. </p>
         </div>
         <div>
-        <Image className={styles.imgStyle} src={'/images/tbimg.svg'} alt='logo' width={600} height={400} />
-        <p>This simplistic search page allows individual's to quickly search by author, book title, or genre.</p>
+        <Image className={styles.imgStyle} src={'/images/tbimgtwo.svg'} alt='logo' width={600} height={400} />
+        <p>This quiz helps engage individuals in a fun way to learn about the essentials to have and know about car safety in emergency and stressful events.</p>
         </div>
         </div>
 
