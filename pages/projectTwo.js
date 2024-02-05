@@ -4,10 +4,10 @@ import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
 import NavBar from '@/components/Molecules/NavBar'
 import Footer from '@/components/Molecules/Footer'
-import PageHeader from '@/components/Molecules/PageHeader'
+import ChargeHeader from '@/components/Molecules/ChargeHeader'
 
 
-export default function Projects() {
+export default function projectTwo() {
   return (
     <>
       
@@ -26,47 +26,44 @@ export default function Projects() {
        <p className={styles.proTitle}>Rescue Radar</p>
         </Link>
        </div>
-       <PageHeader/>
+       <ChargeHeader/>
        <div className={styles.page}>
       <h2 className={styles.projectHeader}>Problem</h2>
       <div className={styles.projProbCon}>
-      <p className={styles.projProb}>This project hopes to solve the organization and management of both physical books and e-books 
-        in a single, unified platform. The aim was to address the needs of readers who want to effortlessly 
-        organize their existing book collection, both in physical and digital formats, and also discover new books.</p>
+      <p className={styles.projProb}>This project hopes to solve the challenges individuals face when encountering unexpected traffic crises, such as
+       being stuck on a highway during adverse weather conditions or other unforeseen events. In such situations, individuals may find themselves stranded 
+       without access to basic necessities, such as food, water, and essential medications like insulin. These crises can be particularly stressful, and the 
+       inability to procure essential items promptly can exacerbate an already challenging situation.</p>
         </div>
         <div className={styles.proImg}>
           <div>
-        <Image className={styles.imgStyle} src={'/images/pagepal1.png'} alt='logo' width={400} height={250} />
+        <Image className={styles.imgStyle} src={'/images/tbimg.svg'} alt='logo' width={600} height={400} />
         <p>The home page of the individual's library shows each shelf that they have created.</p>
         </div>
         <div>
-        <Image className={styles.imgStyle}  src={'/images/pagepal2.png'} alt='logo' width={400} height={300} />
+        <Image className={styles.imgStyle} src={'/images/tbimg.svg'} alt='logo' width={600} height={400} />
         <p>This simplistic search page allows individual's to quickly search by author, book title, or genre.</p>
-        </div>
-        <div>
-        <Image className={styles.imgStyle}  src={'/images/pagepal3.png'} alt='logo' width={400} height={250} />
-        <p>The shelf page features the books that have been added, while allowing the individual to choose to add or remove books and change the name of the shelf.</p>
         </div>
         </div>
 
         <h2 className={styles.projectHeader}>Solution</h2>
         <div className={styles.projProbCon}>
-       <p className={styles.projProb}>PagePal, is a personal library management web app developed using React and powered by the Google Books API. 
-        The application allows users to seamlessly organize and digitally track records for their books. It simplifies
-         the process of adding and managing books, offering flexible search options by title or author, as well as convenient 
-         filtering capabilities. Users can create customizable bookshelves, making it easy to categorize and locate books according to their preferences.</p>
+       <p className={styles.projProb}>The app, developed with the React NextJS framework, addresses the problem of individuals stranded in traffic crises by
+        fostering community connectivity. It connects those in need with nearby users willing to provide necessities, transforming isolation into a collaborative 
+        opportunity for support. Users can post requests, engage in chats for item exchanges, and even participate in a knowledge quiz on safe driving practices, 
+        all contributing to the app's goal of enhancing community resilience during unexpected traffic-related crises.</p>
          </div>
        </div>
        <div className={styles.projbtn}>
-       <a className={styles.linkText} href="https://pagepal-library-app.vercel.app/">
+       <a className={styles.linkText} href="https://traffic-buddy.vercel.app/">
        <button className={styles.btn}>Visit Live Site</button>
         </a>
         </div>
         <div className={styles.bottom}>
         <div className={styles.arrowCon}>
-        <Link href="/projectTwo">
+        <Link href="/projects">
           <div className={styles.arrowCon}>
-         <p>Traffic Buddy</p>
+         <p>PagePal</p>
           <hr className={styles.arrow}></hr>
           </div>
         </Link>
