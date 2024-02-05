@@ -36,15 +36,15 @@ export default function Projects() {
         </div>
         <div className={styles.proImg}>
           <div>
-        <Image className={styles.imgStyle} src={'/images/pagepal1.png'} alt='logo' width={400} height={250} />
+        <Image className={styles.imgStyle} src={'/images/pagepal1.png'} alt='logo' width={390} height={230} />
         <p>The home page of the individual's library shows each shelf that they have created.</p>
         </div>
         <div>
-        <Image className={styles.imgStyle}  src={'/images/pagepal2.png'} alt='logo' width={400} height={300} />
+        <Image className={styles.imgStyle}  src={'/images/pagepal2.png'} alt='logo' width={400} height={270} />
         <p>This simplistic search page allows individual's to quickly search by author, book title, or genre.</p>
         </div>
         <div>
-        <Image className={styles.imgStyle}  src={'/images/pagepal3.png'} alt='logo' width={400} height={250} />
+        <Image className={styles.imgStyle}  src={'/images/pagepal3.png'} alt='logo' width={400} height={230} />
         <p>The shelf page features the books that have been added, while allowing the individual to choose to add or remove books and change the name of the shelf.</p>
         </div>
         </div>
