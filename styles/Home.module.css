@@ -92,10 +92,30 @@ gap: 200px;
   background-color: #4E738A;
 }
 
+.headerPage {
+  width: 1360px;
+  height: 430px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #DDECF9;
+  background-color: #4E738A;
+}
+
+
 .innerHeader {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
+}
+
+.pagepalHeader {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-left: 100px;
 }
 
 .leftHeader {
@@ -363,19 +383,19 @@ margin-left: 180px;
 /*Case Study Page */ 
 
 .probSection {
-  width: 751px;
-  height: 376px;
-  background-color: #DDECF9;
-  margin-top: 80px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  width: 751px;
+  background-color: #DDECF9;
+  margin-top: 200px;
   color: black;
-  margin-left: 310px;
-  margin-bottom: -100px;
 }
 
+.test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .percentage {
   display: flex;
   flex-direction: row;
@@ -394,6 +414,7 @@ margin-left: 180px;
   font-size: 16px;
   border-radius: 10px;
   border: none;
+  cursor: pointer;
 }
 
 .selection {
@@ -421,15 +442,15 @@ margin-left: 180px;
 .desSloth {
  display: flex;
  justify-content: right;
- margin-right: -400px;
+ margin-right: -200px;
  margin-bottom: -580px;
- z-index: 0;
+ z-index: 2;
 }
 
 .desBlob {
   display: flex;
   justify-content: right;
-  margin-right: -650px;
+  margin-right: -450px;
   margin-bottom: -750px;
   margin-top: 150px;
   z-index: 0;
@@ -437,6 +458,7 @@ margin-left: 180px;
 .research {
   display: flex;
   flex-direction: column;
+  padding-left: 12rem;
 }
 
 .quest {
@@ -451,7 +473,7 @@ margin-left: 180px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 50px;
 }
 
 
@@ -465,20 +487,22 @@ margin-left: 180px;
 }
 
 .solSection {
-  margin-top: 3300px;
-  margin-bottom: 200px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 100px;
+  gap: 300px;
+  margin-top: 200px;
 }
 
-.solText {
-  display: flex;
-  flex-direction: column;
-  width: 500px;
-  height: 200px;
-  margin-top: -100px;
+.solTxt {
+width: 500px;
+margin-left: 100px;
+}
+
+.privacy {
+  width: 800px;
+  gap: 100px;
+  margin-left: 200px;
 }
 .colorone {
   width: 150px;
@@ -522,6 +546,7 @@ margin-left: 180px;
   font-size: 26px;
   font-weight: bold;
   margin-top: 200px;
+  padding-left: 12rem;
 }
 
 .logoCase {
@@ -529,30 +554,54 @@ margin-left: 180px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: -200px;
 }
 
 .logoSec {
   display: flex;
-  flex-direction: row;
-  gap: 100px;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.logoTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
 }
 .persona {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 100%;
   gap: 100px;
-  background: linear-gradient(
-    to right,
-    #DDECF9 0%,
-    #DDECF9 50%,
-    #4E738A 50%,
-    #4E738A 100%
-  );
 }
+
+.perTxtCon {
+  float: left;
+  width: 50%;
+}
+
+.perRight {
+  float: right;
+  width: 50%;
+  background-color: #D5D7FF;
+  height: 730px;
+  margin-top: -65px;
+  border-radius: 30px;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.365);
+}
+
+.site {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
 .under {
   display: flex;
@@ -567,7 +616,12 @@ margin-left: 180px;
   font-size: 16px;
   color:  black;
   width: 400px;
-  height: 400px
+  margin-left: 200px;
+  margin-top: -200px;
+}
+
+.imgborder {
+  border-radius: 30px;
 }
 
 .probBody {
@@ -584,12 +638,15 @@ margin-left: 180px;
 }
 .perImg {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  margin-top: 100px;
 }
 
-.resHeader {
-  font-size: 24px;
+.imgStyle {
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .resSub {
@@ -626,12 +683,12 @@ margin-left: 180px;
   flex-direction: row;
 }
 .siteImg {
-  background-color: #DDECF9;
-  width: 650px;
-  height: 670px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #D5D7FF;
+  width: 700px;
+  height: 700px;
 }
 
 .colorCon {
@@ -663,7 +720,12 @@ margin-left: 180px;
   gap: 70px;
   align-items: center;
   justify-content: center;
-  margin-top: -200px;
+  margin-top: 100px;
+}
+
+.masPara {
+  width: 500px;
+  margin-left: 190px;
 }
 
 .fiImg {
@@ -681,10 +743,23 @@ margin-left: 180px;
 .codeImg {
   display: flex;
   flex-direction: row;
-  margin-top: 300px;
-  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 100px;
 }
 
+.code2 {
+margin-top: -60px;
+}
+
+.code3 {
+margin-top: -140px;
+}
+
+.codeTxt {
+  width: 300px;
+}
 .codeText {
   display: flex;
   flex-direction: column;
@@ -695,9 +770,25 @@ margin-left: 180px;
   margin-bottom: -120px;
   margin-top: 100px;
   font-size: 30px;
+  padding-left: 12rem;
 }
 
+.projectHeader {
+  font-size: 30px;
+  
+}
 
+.projProbCon {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+.projProb {
+ width: 780px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .solHeader {
   font-size: 30px;
 }
@@ -730,7 +821,6 @@ justify-content: space-between;
 
 .page {
 width: 1360px;
-height: 2100px;
 background-color: #DDECF9;
 }
 
@@ -742,11 +832,21 @@ background-color: #DDECF9;
 
 .proImg {
   display: flex;
-  flex-direction: column;
-  gap: 40px;
+  flex-direction: row;
+  gap: 100px;
   align-items: center;
   justify-content: center;
   margin-top: 100px;
+}
+
+.pagePalImg {
+
+}
+
+.projbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 

@@ -4,6 +4,7 @@ import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
 import NavBar from '@/components/Molecules/NavBar'
 import Footer from '@/components/Molecules/Footer'
+import PageHeader from '@/components/Molecules/PageHeader'
 
 
 export default function Projects() {
@@ -19,24 +20,50 @@ export default function Projects() {
        <p className={styles.proTitle}>Rescue Radar</p>
        <p className={styles.proTitle}>Project 4</p>
        </div>
+       <PageHeader/>
        <div className={styles.page}>
-        <div className={styles.pageHeader}>
-          <div className={styles.pageLeft}>
-            <p className={styles.mainTitlePage}>PagePal</p>
-            <p className={styles.pageText}>PagePal is a customizable library. Books can be searched for and added to the library. The shelves can be customized to have different names and the books can be moved to different shelves or deleted.</p>
-            <p className={styles.pageText}>My roles: Developer</p>
-            <p className={styles.pageText}>Time Frame: Sept 2023 - Dec 2023</p>
-            </div>
-            <Image src={'/images/pagepall.png'} alt='logo' width={800} height={400} />
+      <h2 className={styles.projectHeader}>Problem</h2>
+      <div className={styles.projProbCon}>
+      <p className={styles.projProb}>This project hopes to solve the organization and management of both physical books and e-books 
+        in a single, unified platform. The aim was to address the needs of readers who want to effortlessly 
+        organize their existing book collection, both in physical and digital formats, and also discover new books.</p>
         </div>
         <div className={styles.proImg}>
-        <Image src={'/images/library.png'} alt='logo' width={900} height={460} />
-        <Image src={'/images/addbook.png'} alt='logo' width={800} height={600} />
-        <Image src={'/images/shelf.png'} alt='logo' width={800} height={400} />
+          <div>
+        <Image className={styles.imgStyle} src={'/images/pagepal1.png'} alt='logo' width={400} height={250} />
+        <p>The home page of the individual's library shows each shelf that they have created.</p>
         </div>
-       
+        <div>
+        <Image className={styles.imgStyle}  src={'/images/pagepal2.png'} alt='logo' width={400} height={300} />
+        <p>This simplistic search page allows individual's to quickly search by author, book title, or genre.</p>
+        </div>
+        <div>
+        <Image className={styles.imgStyle}  src={'/images/pagepal3.png'} alt='logo' width={400} height={250} />
+        <p>The shelf page features the books that have been added, while allowing the individual to choose to add or remove books and change the name of the shelf.</p>
+        </div>
+        </div>
+
+        <h2 className={styles.projectHeader}>Solution</h2>
+        <div className={styles.projProbCon}>
+       <p className={styles.projProb}>PagePal, is a personal library management web app developed using React and powered by the Google Books API. 
+        The application allows users to seamlessly organize and digitally track records for their books. It simplifies
+         the process of adding and managing books, offering flexible search options by title or author, as well as convenient 
+         filtering capabilities. Users can create customizable bookshelves, making it easy to categorize and locate books according to their preferences.</p>
+         </div>
        </div>
-       <a className={styles.linkText} href="https://pagepal-library-app.vercel.app/">Visit Live Site</a>
+       <div className={styles.projbtn}>
+       <a className={styles.linkText} href="https://pagepal-library-app.vercel.app/">
+       <button className={styles.btn}>Visit Live Site</button>
+        </a>
+        </div>
+        <Link href="/caseStudy">
+         <p>Traffic Buddy</p>
+          <hr></hr>
+        </Link>
+        <Link href="/caseStudy">
+         <p>Rescue Radar</p>
+          <hr></hr>
+        </Link>
         <Footer/>
         </div>
       </main>

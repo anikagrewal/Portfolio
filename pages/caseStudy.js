@@ -12,15 +12,14 @@ export default function CaseStudy() {
     <>
       
       <main className={styles.main}>
-        <div id="innersight">
      <NavBar />
        <CaseHeader/>
        
+       <div>
        <h2 className={styles.desHeader}>Problem</h2>
+       <div className={styles.test}>
         <div className={styles.probSection}>
-          <div className={styles.probBody}>
             <p>The project hopes to address the challenge of analyzing numerous journal entries to find correlations between the individual's activites and their mental health symptoms. Aiming to help individual's actively avoid or increase activities to improve their well-being.</p>
-            </div>
         <hr className={styles.perLine}></hr>
           <div className={styles.percentage}>
             <p className={styles.percent}>24%</p>
@@ -28,11 +27,10 @@ export default function CaseStudy() {
             </div>
             <hr className={styles.perLine}></hr>
         </div>
+        </div>
         
      
-        <div id="design" className={styles.desSection}> 
           <h2 className={styles.desHeader}>Design Process</h2>
-          <div> 
           <div className={styles.desBlob}>
           <Image src={'/images/blob.svg'} alt='logo' width={700} height={700} />
           </div>
@@ -41,8 +39,9 @@ export default function CaseStudy() {
           </div>
             <p className={styles.innerSub}>Research</p>
             <div className={styles.research}>
-            <p className={styles.resHeader}>Findings</p>
+            <p>Findings from interview questions and secondary research:</p>
             <div className={styles.find}>
+              <div>
               <p className={styles.resSub}>Pyschological Barriers</p>
               <div className={styles.resLiCon}>
               <hr className={styles.resLine}></hr>
@@ -57,6 +56,8 @@ export default function CaseStudy() {
               <li>Lack of direction</li>
               </ul>
               </div>
+              </div>
+              <div>
               <p className={styles.resSub}>Technical/Functional Issues</p>
               <div className={styles.resLiCon}>
               <hr className={styles.resLine1}></hr>
@@ -67,12 +68,15 @@ export default function CaseStudy() {
               <li>Aesthetic concerns</li>
               </ul>
               </div>
+              </div>
+              <div>
               <p className={styles.resSub}>Privacy Concerns</p>
               <div className={styles.resLiCon}>
               <hr className={styles.resLine2}></hr>
               <ul className={styles.resList1}>
               <li>Data sharing through AI</li>
               </ul>
+              </div>
               </div>
          
             </div>
@@ -83,37 +87,39 @@ export default function CaseStudy() {
               <div className={styles.perTxtCon}>
             <p className={styles.perText}>Amaya, is a 24 year old BCIT student who has been diagnosed with anxiety and depression. She has been consistently journaling her thoughts and emotions traditionally with a pen and paper. </p>
             </div>
-            <div >
+            <div className={styles.perRight}>
            <div className={styles.perImg}>
-            <Image src={'/images/persona.png'} alt='logo' width={780} height={595} />
+            <Image className={styles.imgStyle} src={'/images/persona.png'} alt='logo' width={710} height={535}/>
            </div> 
            </div>
             </div>
-          </div>
-          <hr className={styles.divider}></hr>
-          <div> 
+   
           <p className={styles.innerSub}>Site Map</p>
-            <div className={styles.persona}>
-            <p className={styles.perText}>The site map outlines the key pages for the MVP's. There are three different routes. No saved journal entry, one saved journal entry, and multiple saved journal entries </p>
+            <div className={styles.site}>
             <div className={styles.siteImg}>
             <Image src={'/images/sitemap.png'} alt='logo' width={600} height={620} />
             </div>
+            <p>The site map outlines the key pages for the MVP's. There are three different routes. No saved journal entry, one saved journal entry, and multiple saved journal entries </p>
             </div>
-          </div>
-          <hr className={styles.divider}></hr>
-          <div> 
+
             <p className={styles.innerSub}>Logo</p>
             <div className={styles.logoSec}>
+              <div className={styles.logoTop}>
             <div className={styles.logoCase}>
-            <Image src={'/images/oldLogo.png'} alt='logo' width={225} height={225} />
+            <Image src={'/images/oldLogo1.svg'} alt='logo' width={225} height={225} />
             <p>First Iteration of Logo</p>
             </div>
             <div className={styles.logoCase}>
-            <Image src={'/images/newLogo.png'} alt='logo' width={500} height={500} />
+            <Image src={'/images/oldLogo2.svg'} alt='logo' width={225} height={225} />
+            <p>Second Iteration of Logo</p>
+            </div>
+            </div>
+            <div className={styles.logoCase}>
+            <Image src={'/images/newLogo.svg'} alt='logo' width={500} height={500} />
             <p>Final Design of Logo</p>
             </div>
             </div>
-            <hr className={styles.divider}></hr>
+        
             <p className={styles.innerSub}>Colour</p>
             <div className={styles.persona}>
             <p className={styles.perText}>Monochromatic Purple - Emphasize the feeling of calmness. The purples are cooler with a little bit of contrast for one or two shades so that the loud colours aren't as evoked for the user and potentially stress them out when using the application.</p>
@@ -164,69 +170,80 @@ export default function CaseStudy() {
             
           
             <p className={styles.innerSub}>Mascots</p>
-            <div>
-            <p className={styles.perText}>The users have the option to customize their mascot so that they can feel that there is a personalized companion that is following and guiding them through their mental health journey.</p>
+          
+            <p className={styles.masPara}>The users have the option to customize their mascot so that they can feel that there is a personalized companion that is following and guiding them through their mental health journey.</p>
             <div className={styles.masImg}>
               <div className={styles.masText}>
              <Image src={'/images/panda.svg'} alt='logo' width={200} height={200} />
-             <p>Panda - Represents peace and friendship </p>
+             <p>Panda</p>
+             <p>Represents peace and friendship </p>
              </div>
              <div className={styles.masText}>
              <Image src={'/images/sloth.svg'} alt='logo' width={200} height={200} />
-             <p>Sloth - Represents relaxation and patience </p>
+            <p>Sloth</p>
+             <p>Represents relaxation and patience </p>
              </div>
              <div className={styles.masText}>
              <Image src={'/images/otter.svg'} alt='logo' width={200} height={200} />
-             <p>Otter - Represents kindness and family</p>
+            <p>Otter</p>
+             <p>Represents kindness and family</p>
              </div>
              <div className={styles.masText}>
              <Image src={'/images/frog.svg'} alt='logo' width={200} height={200} />
-             <p>Frog - Represents wisdom and good luck</p>
+             <p>Frog</p>
+             <p>Represents wisdom and good luck</p>
              </div>
              </div>
-             </div>
-             <hr className={styles.divider}></hr>
+        
             <p className={styles.innerSub}>Lo-Fi | Hi-Fi</p>
             <div className={styles.fiImg}>
-            <Image src={'/images/lofiPhoto.png'} alt='logo' width={550} height={400} />
-          <Image src={'/images/hifiPhoto.png'} alt='logo' width={550} height={400} />
+            <Image className={styles.imgborder} src={'/images/lofiPhoto.png'} alt='logo' width={700} height={500} />
+          <Image className={styles.imgborder} src={'/images/hifiPhoto.png'} alt='logo' width={700} height={500} />
           </div>
-          </div>
-          <hr className={styles.divider}></hr>
-          <div className={styles.codingCon}> 
+    
+         
           <p className={styles.innerSub}>Coding</p>
           <div className={styles.codeImg}>
-          <Image src={'/images/coding4.png'} alt='logo' width={250} height={900} />
-          <Image src={'/images/coding3.png'} alt='logo' width={250} height={490} />
-          <Image src={'/images/coding2.svg'} alt='logo' width={300} height={400} />
+            <div>
+          <Image src={'/images/analysis.svg'} alt='logo' width={300} height={600} />
+          <p className={styles.codeTxt}>The ai sentiment analysis which plays a fundamental role  in separating the app from competitors, will pull out key words in order to display prominent feelings and emotions within that journal entry. This feature further assists with analyzing past journal entries.</p>
           </div>
-
-<div className={styles.codeText}>
-     <p>Sentiment Analysis</p>
-     <p>Sentiment Analysis is an AI-based technology that can determine the emotional undertone of a corpus of text.
-Sentiment Analysis inspects the given text and identifies the prevailing emotional opinion within the text, especially to determine a writer's attitude as positive, negative, or neutral. Also called "opinion mining", it identifies and detects subjective information from the input text.
-</p>
-<p>EdenAI services was used for sentiment analysis. EdenAI does not store data at all, and any data (e.g., journal entries) are transmitted directly back to innersight.</p>
-     <p>The data is managed using Google Firebase services. Data is stored in Belgium.</p>
-     </div>
+          <div className={styles.code2}>
+          <Image src={'/images/chart.svg'} alt='logo' width={300} height={600} />
+          <p className={styles.codeTxt}>The chart pulls the emotions that most commonly show up in the journal entries and displays it for a week, month, or yearly view.</p>
           </div>
-        </div>
-        <hr className={styles.divider}></hr>
-        <div id="solution" className={styles.solSection}>
+          <div className={styles.code3}>
+          <Image src={'/images/recom.svg'} alt='logo' width={300} height={600} />
+          <p className={styles.codeTxt}>The recommendations are based off the sentiment analysis and the emotions and key words that were identified. It will then give a recommendation based on that.</p>
+          </div>
+          </div>
        
-            <div className={styles.solText}>
-            <p className={styles.solHeader}>Solution</p>
-            <p>The ai sentiment analysis which plays a fundamental role  in separating the app from competitors, will pull out key words in order to display prominent feelings and emotions within that journal entry. This feature further assists with analyzing past journal entries.</p>
-         <p>The chart pulls the emotions that most commonly show up in the journal entries and displays it for a week, month, or yearly view.</p>
-         <p>The recommendations are based off the sentiment analysis and the emotions and key words that were identified. It will then give a recommendation based on that.</p>
-          </div>
-            <video width={500} height={300} controls>
+
+
+     <p className={styles.innerSub}>Sentiment Analysis | Privacy Concerns</p>
+     <ul className={styles.privacy}>
+      <li>Sentiment Analysis is an AI-based technology that can determine the emotional undertone of a corpus of text. 
+        Sentiment Analysis inspects the given text and identifies the prevailing emotional opinion within the text, 
+        especially to determine a writer's attitude as positive, negative, or neutral. Also called "opinion mining", 
+        it identifies and detects subjective information from the input text.</li>
+      <li>EdenAI services was used for sentiment analysis. EdenAI does not store data at all, and any data 
+        (e.g., journal entries) are transmitted directly back to innersight.</li>
+      <li>The data is managed using Google Firebase services, which stores the data in Belgium.</li>
+     </ul>
+     <Image src={'/images/Mascots.svg'} alt='logo' width={100} height={300}/>
+         
+     <h2 className={styles.desHeader}>Solution</h2>
+        <div className={styles.solSection}>
+           <p className={styles.solTxt}>InnerSight solves the problem by utilizing AI to analyize and generate the emotional undertone of all entries. Then by recording the data, InnerSight generates a visually pleasing pie chart for individuals to be able to see their overall conditions of their emotions at a quick glance. Lastly, InnerSight then provides the next step that individuals can take through personalized recommendations. </p>
+            <video width={600} height={400} controls>
               <source src={'/images/innersightTechDemo.mp4'} type="video/mp4" />
             </video>
         </div>
         <a className={styles.linkText} href="https://play.google.com/store/apps/details?id=ca.innersightapp.app&pcampaignid=web_share">Visit Beta Testing</a>
-        <Footer/>
         </div>
+
+        <Footer/>
+
       </main>
     </>
   )
