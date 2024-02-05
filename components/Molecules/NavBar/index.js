@@ -11,7 +11,7 @@ return (
 <div className={styles.navCon}>
 <div className={styles.navBar}> 
             <div className={styles.left}>
-                <p>Currently under Construction</p>
+             
                  <Link href={'/'} className={styles.nav}> <Image src={'/images/anika_logo.svg'} alt='logo' width={54} height={58} /></Link>
             </div>
             <div className={styles.right}>

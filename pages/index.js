@@ -31,8 +31,8 @@ export default function Home() {
         <div className={styles.proLinks}>
         <Link href={'/caseStudy'} className={styles.linkTxt}>InnerSight</Link>
         <Link href={'/projects'} className={styles.linkTxt}>PagePal</Link>
-        <p>Rescue Radar</p>
-        <p>Project 4</p>
+        <Link href={'/projectTwo'} className={styles.linkTxt}>Traffic Buddy</Link>
+        <Link href={'/projects'} className={styles.linkTxt}>Rescue Radar</Link>
         </div>
         </div>
        

@@ -99,7 +99,7 @@ export default function CaseStudy() {
             <div className={styles.siteImg}>
             <Image src={'/images/sitemap.png'} alt='logo' width={600} height={620} />
             </div>
-            <p>The site map outlines the key pages for the MVP's. There are three different routes. No saved journal entry, one saved journal entry, and multiple saved journal entries </p>
+            <p className={styles.sitetxt}>The site map outlines the key pages for the MVP's. There are three different routes. No saved journal entry, one saved journal entry, and multiple saved journal entries </p>
             </div>
 
             <p className={styles.innerSub}>Logo</p>
@@ -114,7 +114,7 @@ export default function CaseStudy() {
             <p>Second Iteration of Logo</p>
             </div>
             </div>
-            <div className={styles.logoCase}>
+            <div className={styles.logoCase2}>
             <Image src={'/images/newLogo.svg'} alt='logo' width={500} height={500} />
             <p>Final Design of Logo</p>
             </div>
@@ -205,15 +205,15 @@ export default function CaseStudy() {
           <p className={styles.innerSub}>Coding</p>
           <div className={styles.codeImg}>
             <div>
-          <Image src={'/images/analysis.svg'} alt='logo' width={300} height={600} />
+          <Image  className={styles.codeborder} src={'/images/analysis.svg'} alt='logo' width={300} height={600} />
           <p className={styles.codeTxt}>The ai sentiment analysis which plays a fundamental role  in separating the app from competitors, will pull out key words in order to display prominent feelings and emotions within that journal entry. This feature further assists with analyzing past journal entries.</p>
           </div>
           <div className={styles.code2}>
-          <Image src={'/images/chart.svg'} alt='logo' width={300} height={600} />
+          <Image  className={styles.codeborder} src={'/images/chart.svg'} alt='logo' width={300} height={600} />
           <p className={styles.codeTxt}>The chart pulls the emotions that most commonly show up in the journal entries and displays it for a week, month, or yearly view.</p>
           </div>
           <div className={styles.code3}>
-          <Image src={'/images/recom.svg'} alt='logo' width={300} height={600} />
+          <Image  className={styles.codeborder} src={'/images/recom.svg'} alt='logo' width={300} height={600} />
           <p className={styles.codeTxt}>The recommendations are based off the sentiment analysis and the emotions and key words that were identified. It will then give a recommendation based on that.</p>
           </div>
           </div>
@@ -221,16 +221,18 @@ export default function CaseStudy() {
 
 
      <p className={styles.innerSub}>Sentiment Analysis | Privacy Concerns</p>
+     <div className={styles.privCon}>
      <ul className={styles.privacy}>
-      <li>Sentiment Analysis is an AI-based technology that can determine the emotional undertone of a corpus of text. 
+      <li className={styles.privacyli}>Sentiment Analysis is an AI-based technology that can determine the emotional undertone of a corpus of text. 
         Sentiment Analysis inspects the given text and identifies the prevailing emotional opinion within the text, 
         especially to determine a writer's attitude as positive, negative, or neutral. Also called "opinion mining", 
         it identifies and detects subjective information from the input text.</li>
-      <li>EdenAI services was used for sentiment analysis. EdenAI does not store data at all, and any data 
+      <li className={styles.privacyli}>EdenAI services was used for sentiment analysis. EdenAI does not store data at all, and any data 
         (e.g., journal entries) are transmitted directly back to innersight.</li>
-      <li>The data is managed using Google Firebase services, which stores the data in Belgium.</li>
+      <li className={styles.privacyli}>The data is managed using Google Firebase services, which stores the data in Belgium.</li>
      </ul>
-     <Image src={'/images/Mascots.svg'} alt='logo' width={100} height={300}/>
+     <Image src={'/images/Mascots.svg'} alt='logo' width={200} height={400}/>
+     </div>
          
      <h2 className={styles.desHeader}>Solution</h2>
         <div className={styles.solSection}>
@@ -239,10 +241,25 @@ export default function CaseStudy() {
               <source src={'/images/innersightTechDemo.mp4'} type="video/mp4" />
             </video>
         </div>
-        <a className={styles.linkText} href="https://play.google.com/store/apps/details?id=ca.innersightapp.app&pcampaignid=web_share">Visit Beta Testing</a>
+        <div className={styles.casebtn}>
+        <a className={styles.linkText} href="https://play.google.com/store/apps/details?id=ca.innersightapp.app&pcampaignid=web_share">
+       <button className={styles.btn}>Visit Live Beta</button>
+        </a>
         </div>
+        <div className={styles.bottom}>
+        <div className={styles.arrowCon}>
+        <Link href="/projects">
+          <div className={styles.arrowCon}>
+         <p>Projects</p>
+          <hr className={styles.arrow}></hr>
+          </div>
+        </Link>
+        </div>
+        </div>
+        
 
         <Footer/>
+        </div>
 
       </main>
     </>

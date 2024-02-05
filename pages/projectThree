@@ -1,0 +1,80 @@
+import Head from 'next/head'
+import Image from 'next/image'
+import styles from '@/styles/Home.module.css'
+import Link from 'next/link'
+import NavBar from '@/components/Molecules/NavBar'
+import Footer from '@/components/Molecules/Footer'
+import ThirdHeader from '@/components/Molecules/ThirdHeader'
+
+
+export default function projectThree() {
+  return (
+    <>
+      
+      <main className={styles.main}>
+        <div>
+     <NavBar />
+       <h2 className={styles.proHeader}>Projects</h2>
+       <div className={styles.pro}>
+       <Link href="/projects">
+       <p className={styles.proTitle}>PagePal</p>
+        </Link>
+        <Link href="/projectTwo">
+       <p className={styles.proTitle}>Traffic Buddy</p>
+        </Link>
+        <Link href="/projectThree">
+       <p className={styles.proTitle}>Rescue Radar</p>
+        </Link>
+       </div>
+       <ThirdHeader/>
+       <div className={styles.page}>
+      <h2 className={styles.projectHeader}>Problem</h2>
+      <div className={styles.projProbCon}>
+      <p className={styles.projProb}>loreum epsom</p>
+        </div>
+        <div className={styles.proImg}>
+          <div>
+        <Image className={styles.imgStyle} src={'/images/tbimg.svg'} alt='logo' width={600} height={400} />
+        <p>loreum epsom</p>
+        </div>
+        <div>
+        <Image className={styles.imgStyle} src={'/images/tbimg.svg'} alt='logo' width={600} height={400} />
+        <p>loreum epsom</p>
+        </div>
+        </div>
+
+        <h2 className={styles.projectHeader}>Solution</h2>
+        <div className={styles.projProbCon}>
+       <p className={styles.projProb}>loreum epsom.</p>
+         </div>
+       </div>
+       <div className={styles.projbtn}>
+       <a className={styles.linkText} href="">
+       <button className={styles.btn}>Visit Live Site</button>
+        </a>
+        </div>
+        <div className={styles.bottom}>
+        <div className={styles.arrowCon}>
+        <Link href="/projects">
+          <div className={styles.arrowCon}>
+         <p>PagePal</p>
+          <hr className={styles.arrow}></hr>
+          </div>
+        </Link>
+        </div>
+        <div className={styles.arrowCon}>
+        <Link href="/projectTwo">
+          <div className={styles.arrowCon}>
+         <p>Traffic Buddy</p>
+       
+       <hr className={styles.arrow}></hr>
+       </div>
+        </Link>
+        </div>
+        </div>
+        <Footer/>
+        </div>
+      </main>
+    </>
+  )
+}
