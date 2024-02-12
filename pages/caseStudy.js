@@ -110,21 +110,24 @@ export default function CaseStudy() {
             <div className={styles.logoCase}>
             <Image src={'/images/oldLogo1.svg'} alt='logo' width={225} height={225} />
             <p>First Iteration of Logo</p>
+            <p>This logo was meant to reflect the inward feelings and emotions of individual's when journaling</p>
             </div>
             <div className={styles.logoCase}>
             <Image src={'/images/oldLogo2.svg'} alt='logo' width={225} height={225} />
             <p>Second Iteration of Logo</p>
+            <p>This logo took in the new color scheme.</p>
             </div>
             </div>
             <div className={styles.logoCase2}>
             <Image src={'/images/newLogo.svg'} alt='logo' width={500} height={500} />
             <p>Final Design of Logo</p>
+            <p>This redesign incorporated the new color scheme as well as took a positive and uplifiting tone.</p>
             </div>
             </div>
         
             <p className={styles.innerSub}>Colour</p>
             <div className={styles.persona}>
-            <p className={styles.perText}>Monochromatic Purple - Emphasize the feeling of calmness. The purples are cooler with a little bit of contrast for one or two shades so that the loud colours aren't as evoked for the user and potentially stress them out when using the application.</p>
+            <p className={styles.perTextColor}>Monochromatic Purple - Emphasize the feeling of calmness. The purples are cooler with a little bit of contrast for one or two shades so that the loud colours aren't as evoked for the user and potentially stress them out when using the application.</p>
            <div className={styles.colorCon}>
             <div className={styles.colorRow}>
               <div className={styles.colBox}>
