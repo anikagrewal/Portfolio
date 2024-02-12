@@ -16,7 +16,7 @@ export default function CaseStudy() {
        <CaseHeader/>
        
        <div>
-       <h2 className={styles.desHeader}>Problem</h2>
+       <h2 className={styles.desHeader}>Challenge</h2>
        <div className={styles.test}>
         <div className={styles.probSection}>
             <p>The project hopes to address the challenge of analyzing numerous journal entries to find correlations between the individual's activites and their mental health symptoms. Aiming to help individual's actively avoid or increase activities to improve their well-being.</p>
@@ -28,17 +28,18 @@ export default function CaseStudy() {
             <hr className={styles.perLine}></hr>
         </div>
         </div>
-        
-     
-          <h2 className={styles.desHeader}>Design Process</h2>
+        <div className={styles.slothSide}>
           <div className={styles.desBlob}>
           <Image src={'/images/blob.svg'} alt='logo' width={700} height={700} />
           </div>
             <div className={styles.desSloth}>
           <Image src={'/images/slothHanging.svg'} alt='logo' width={500} height={500} />
           </div>
-            <p className={styles.innerSub}>Research</p>
+          </div>
+          
+          <p className={styles.innerSub}>Research</p>
             <div className={styles.research}>
+            
             <p>Findings from interview questions and secondary research:</p>
             <div className={styles.find}>
               <div>
@@ -101,6 +102,7 @@ export default function CaseStudy() {
             </div>
             <p className={styles.sitetxt}>The site map outlines the key pages for the MVP's. There are three different routes. No saved journal entry, one saved journal entry, and multiple saved journal entries </p>
             </div>
+            <h2 className={styles.desHeader}>Design Process</h2>
 
             <p className={styles.innerSub}>Logo</p>
             <div className={styles.logoSec}>
