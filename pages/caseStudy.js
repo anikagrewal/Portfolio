@@ -132,42 +132,42 @@ export default function CaseStudy() {
            <div className={styles.colorCon}>
             <div className={styles.colorRow}>
               <div className={styles.colBox}>
-            <p>Delft Blue</p>
+            <p>#525585</p>
             <div className={styles.colorone}>
-              <p className={styles.hexText}>#525585</p>
+              
             </div>
             </div>
             <div className={styles.colBox}>
-            <p>Savoy Blue</p>
+            <p>#6164C3</p>
             <div className={styles.colortwo}>
-              <p className={styles.hexText}>#6164C3</p>
+             
             </div>
             </div>
             <div className={styles.colBox}>
-            <p>Dark Gray</p>
+            <p>#88898C</p>
             <div className={styles.colorthree}>
-              <p className={styles.hexText}>#88898C</p>
+              
             </div>
             </div>
             </div>
             <div className={styles.colorRow}>
             <div className={styles.colBox}>
-            <p>Periwinkle</p>
+            <p>#C5C7F7</p>
             <div className={styles.colorfour}>
-              <p className={styles.hexText}>#C5C7F7</p>
+             
             </div>
             </div>
           
             <div className={styles.colBox}>
-            <p>Light Periwinkle</p>
+            <p>#D5D7FF</p>
             <div className={styles.colorfive}>
-              <p className={styles.hexText}>#D5D7FF</p>
+            
             </div>
             </div>
             <div className={styles.colBox}>
-            <p>Light Lavender</p>
+            <p>#F2F2FD</p>
             <div className={styles.colorsix}>
-              <p className={styles.hexText}>#F2F2FD</p>
+             
             </div>
             </div>
             </div>
