@@ -6,7 +6,7 @@ import NavBar from '@/components/Molecules/NavBar'
 import VisitBtn from '@/components/Atoms/Buttons'
 import Footer from '@/components/Molecules/Footer'
 import Header from '@/components/Molecules/Header'
-
+import ScrollTop from '@/components/Atoms/ScrollTop'
 import Carousel from '@/components/Molecules/Carousel'
 
 
@@ -40,7 +40,7 @@ export default function Home() {
         </div>
         </div>
        
-       
+       <ScrollTop/>
         <Footer/>
       </div>
       </main>

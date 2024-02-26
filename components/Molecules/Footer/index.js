@@ -5,7 +5,7 @@ import styles from '@/styles/Home.module.css'
 
 export default function Footer() {
 return (
-    <div>
+    <div id="contact">
     <hr className={styles.line}></hr>
     <div className={styles.footer}> 
         <div className={styles.contact}>
@@ -13,6 +13,7 @@ return (
             <div className={styles.footerLinks}>
             <a href="https://www.linkedin.com/in/anika-grewal-516712262" style={{ textDecoration: 'none'}} className={styles.linkTxt}>LinkedIn</a>
             <p>Email</p>
+            <p>Resume</p>
             </div>
         </div>
         <hr></hr>

@@ -12,13 +12,14 @@ return (
 <div className={styles.navBar}> 
             <div className={styles.left}>
           
-                 <Link href={'/'} className={styles.nav}> <Image src={'/images/anika_logo.svg'} alt='logo' width={54} height={58} /></Link>
+                 <Link href={'/'} className={styles.nav}> <Image src={'/images/anika_logo.svg'} alt='logo' width={90} height={98} /></Link>
             </div>
             <div className={styles.right}>
                   <Link href={'/caseStudy'} style={{ textDecoration: 'none'}} className={styles.nav}>Case Study</Link>
-                  <Link href={'/projects'}style={{ textDecoration: 'none'}} className={styles.nav}>Projects</Link>
-                  <p className={styles.nav}>About</p>
-                  <p className={styles.nav}>Resume</p>
+                  <Link href={'/projects'}style={{ textDecoration: 'none'}} className={styles.nav}>Development</Link>
+                  <Link href={''}style={{ textDecoration: 'none'}} className={styles.nav}>Design</Link>
+                  <Link href="#contact" style={{ textDecoration: 'none'}} className={styles.nav}>Contact</Link>
+                  
             </div>
         </div>
         </div>

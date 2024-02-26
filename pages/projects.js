@@ -5,7 +5,7 @@ import Link from 'next/link'
 import NavBar from '@/components/Molecules/NavBar'
 import Footer from '@/components/Molecules/Footer'
 import PageHeader from '@/components/Molecules/PageHeader'
-
+import ScrollTop from '@/components/Atoms/ScrollTop'
 
 export default function Projects() {
   return (
@@ -81,6 +81,8 @@ export default function Projects() {
         </Link>
         </div>
         </div>
+
+        <ScrollTop/>
         <Footer/>
         </div>
       </main>

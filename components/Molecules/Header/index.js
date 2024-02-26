@@ -11,11 +11,11 @@ return (
     <div className={styles.header}>
     <div className={styles.leftHeader}>
       <div className={styles.headLogo}>
-         <Image src={'/images/anika_logo.svg'} alt='logo' width={215} height={215} />
+         <Image src={'/images/anika_logo_clr.svg'} alt='logo' width={215} height={215} />
       </div>
       <div className={styles.title}>
-          <h1 className={styles.mainTitle}>Hey, I'm Anika</h1>
-          <p className={styles.subheading}>I'm a Frontend Developer.</p>
+          <h1 className={styles.mainTitle}>Hey, I'm Anika!</h1>
+          <p className={styles.subheading}>A Frontend Developer & UI/UX Designer</p>
           <p className={styles.bodyTxt}>Bringing Digital Dreams to Life</p>
       </div>
       </div>

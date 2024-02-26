@@ -5,6 +5,7 @@ import Link from 'next/link'
 import NavBar from '@/components/Molecules/NavBar'
 import Footer from '@/components/Molecules/Footer'
 import CaseHeader from '@/components/Molecules/CaseHeader'
+import ScrollTop from '@/components/Atoms/ScrollTop'
 
 
 export default function CaseStudy() {
@@ -262,7 +263,7 @@ export default function CaseStudy() {
         </div>
         </div>
         
-
+        <ScrollTop/>
         <Footer/>
         </div>
 

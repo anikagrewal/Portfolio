@@ -5,7 +5,7 @@ import Link from 'next/link'
 import NavBar from '@/components/Molecules/NavBar'
 import Footer from '@/components/Molecules/Footer'
 import ChargeHeader from '@/components/Molecules/ChargeHeader'
-
+import ScrollTop from '@/components/Atoms/ScrollTop'
 
 export default function projectTwo() {
   return (
@@ -78,6 +78,7 @@ export default function projectTwo() {
         </Link>
         </div>
         </div>
+        <ScrollTop/>
         <Footer/>
         </div>
       </main>
