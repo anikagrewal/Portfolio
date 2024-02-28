@@ -23,7 +23,7 @@ export default function Projects() {
        <p className={styles.proTitle}>Traffic Buddy</p>
         </Link>
         <Link href="/projectThree">
-       <p className={styles.proTitle}>Rescue Radar</p>
+       <p className={styles.proTitle}>WeatherVial</p>
         </Link>
        </div>
        <PageHeader/>
@@ -74,7 +74,7 @@ export default function Projects() {
         <div className={styles.arrowCon}>
         <Link href="/projectThree">
           <div className={styles.arrowCon}>
-         <p>Rescue Radar</p>
+         <p>WeatherVial</p>
        
        <hr className={styles.arrow}></hr>
        </div>
