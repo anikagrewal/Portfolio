@@ -223,6 +223,11 @@ export default function CaseStudy() {
           <p className={styles.codeTxt}>The recommendations are based off the sentiment analysis and the emotions and key words that were identified. It will then give a recommendation based on that.</p>
           </div>
           </div>
+          <div className={styles.casebtn}>
+        <a className={styles.linkText} href="https://github.com/Mariessa-Pinto/innersight">
+       <button className={styles.btn}>Visit Code</button>
+        </a>
+        </div>
        
 
 
