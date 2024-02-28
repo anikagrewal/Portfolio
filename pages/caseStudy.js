@@ -256,7 +256,7 @@ export default function CaseStudy() {
         <div className={styles.arrowCon}>
         <Link href="/projects">
           <div className={styles.arrowCon}>
-         <p>Projects</p>
+         <p>Development</p>
           <hr className={styles.arrow}></hr>
           </div>
         </Link>

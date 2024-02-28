@@ -36,7 +36,7 @@ export default function Home() {
         <Link href={'/caseStudy'} style={{ textDecoration: 'none'}} className={styles.linkTxt}>InnerSight</Link>
         <Link href={'/projects'}  style={{ textDecoration: 'none'}}className={styles.linkTxt}>PagePal</Link>
         <Link href={'/projectTwo'} style={{ textDecoration: 'none'}} className={styles.linkTxt}>Traffic Buddy</Link>
-        <Link href={'/projects'}  style={{ textDecoration: 'none'}} className={styles.linkTxt}>Rescue Radar</Link>
+        <Link href={'/projects'}  style={{ textDecoration: 'none'}} className={styles.linkTxt}>WeatherVial</Link>
         </div>
         </div>
        
