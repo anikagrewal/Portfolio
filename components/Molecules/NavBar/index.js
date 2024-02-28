@@ -17,7 +17,7 @@ return (
             <div className={styles.right}>
                   <Link href={'/caseStudy'} style={{ textDecoration: 'none'}} className={styles.nav}>Case Study</Link>
                   <Link href={'/projects'}style={{ textDecoration: 'none'}} className={styles.nav}>Development</Link>
-                  <Link href={''}style={{ textDecoration: 'none'}} className={styles.nav}>Design</Link>
+                  <Link href={'/design'}style={{ textDecoration: 'none'}} className={styles.nav}>Design</Link>
                   <Link href="#contact" style={{ textDecoration: 'none'}} className={styles.nav}>Contact</Link>
                   
             </div>
