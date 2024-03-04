@@ -11,7 +11,7 @@ return (
     <div className={styles.header}>
     <div className={styles.leftHeader}>
       <div className={styles.headLogo}>
-         <Image src={'/images/anika_logo_clr.svg'} alt='logo' width={215} height={215} />
+         <Image src={'/images/anika_logo_clr.svg'} alt='logo' width={215} height={215} className={styles.imgLogoSm} />
       </div>
       <div className={styles.title}>
           <h1 className={styles.mainTitle}>Hey, I'm Anika!</h1>
