@@ -23,7 +23,7 @@ export default function Design() {
        </div>
        <div className={styles.proImg}>
           <div className={styles.imgGap}>
-        <Image className={styles.imgStyle} src={'/images/rihanna.png'} alt='logo' width={410} height={550} />
+        <Image  src={'/images/rihannaport.png'} alt='logo' width={450} height={500} />
         <Image className={styles.imgStyle}  src={'/images/painting.png'} alt='logo' width={410} height={550} />
        
         </div>
